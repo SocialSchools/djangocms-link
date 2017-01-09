@@ -16,6 +16,7 @@ class LinkPlugin(CMSPluginBase):
     model = Link
     form = LinkForm
     name = _('Link')
+    module = "Basis"
     render_template = 'cms/plugins/link.html'
     text_enabled = True
     allow_children = True
